@@ -28,8 +28,8 @@ fi
 apt-get -y update
 apt-get -y install \
     ack-grep build-essential git curl \
-    imagemagick postgresql-9.1 postgresql-client-9.1 erlang-nox inotify-tools
-
+    imagemagick postgresql-9.1 postgresql-client-9.1 inotify-tools \
+    erlang-base erlang-tools erlang-parsetools erlang-inets erlang-ssl erlang-eunit erlang-dev erlang-xmerl erlang-src
 echo
 
 # setup database
